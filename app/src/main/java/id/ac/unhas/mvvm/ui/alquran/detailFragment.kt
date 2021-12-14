@@ -50,11 +50,11 @@ class detailFragment : Fragment() {
             val sendIntent: Intent = Intent().apply {
                 action = Intent.ACTION_SEND
                 putExtra(
-                    Intent.EXTRA_TEXT, "Udah baca Al-Quran belum? " +
-                        "yuk baca surah ${nama}, detailnya ada dibawah ya!\n\n"+
+                    Intent.EXTRA_TEXT, "Apakah anda sudah membaca Al-Quran hari ini? " +
+                        "Mari kita membaca ${nama}, dengan detail yang ada dibawah..\n\n"+
                         "Surah ${nama}  ${asma}\n\n"+
-                        "Arti : ${arti}\n"+
-                        "Surah-ke : ${urut}\n"+
+                        "Arti Surah : ${arti}\n"+
+                        "Surah ke : ${urut}\n"+
                         "Jumlah ayat : ${ayat}\n"
                 )
                 type = "text/plain"
