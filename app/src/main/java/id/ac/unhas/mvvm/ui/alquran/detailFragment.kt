@@ -36,7 +36,7 @@ class detailFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         detailed_text.text = "Nama surah : ${StaticData.nama}  ${StaticData.asma}\n\n"+
-                             "Arti                : ${StaticData.arti} \n\n" +
+                             "Arti surah    : ${StaticData.arti} \n\n" +
                              "Surah-ke      : ${StaticData.nomor}\n\n"+
                              "Jumlah ayat : ${StaticData.ayat}"
 
